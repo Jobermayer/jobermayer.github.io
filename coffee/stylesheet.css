@@ -78,6 +78,8 @@ table {
 		 color: #998136;
 		 background-color: 	#291400;}
 
+	ul  {padding: 5px;}
+
 	li  {display: inline-block;
 		line-height: 1.7em;
 		word-spacing: 3em;} 	
@@ -86,18 +88,23 @@ table {
 
 	.left {background-color: white;
 			font-size: 95%;
-			height: 200px;}
+			height: 400px;
+			width: 275px;
+			padding: 25px 25px 25px 100px;}
 
 	.right {background-color: white;
 			font-size: 95%;
-			height: 200px;}
+			height: 400px;
+			width: 275px;
+			padding: 25px 100px 25px 25px;}
 
 	footer {font-family: "Garamond", Times New Roman, Times, serif;
 		 font-size: 14px;
 		 color: #998136;
 		 background-color: 	#291400;
 		 text-align: center;
-		 line-height: 1.1em;}
+		 line-height: 1.1em;
+		 padding: 25px;}
 
 	a  {color: #998136;
 		text-decoration: none;}
