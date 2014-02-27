@@ -51,16 +51,22 @@ table {
 
 	header {background-image: url(http://rampup.github.com/frontEnd/exercises/beans.jpg);}
 			/* code for photo in index.html was img src="http://rampup.github.com/frontEnd/exercises/beans.jpg" alt="a bunch of coffee beans" */
+	
+	header, body {width: 800px;}
+
 	body {font-family:"Times New Roman", Times, serif; 
 		color: 	#1F0F00;
 		background-color: #dfdfd6;
-		padding: 150px;}
+		padding: 150px;
+		line-height: 1.2em;
+		text-align: center;}
 
 	h1 { font-family: "Arial";
 		font-size: 40px; 
 	    color:white; 
 	    font-weight: strong; 
-	    line-height: 2;}
+	    line-height: 2;
+		text-indent: -9999px;}
 
 	h2 {font-family: "Arial";
 		font-size: 20px; 
@@ -72,11 +78,26 @@ table {
 		 color: #998136;
 		 background-color: 	#291400;}
 
+	li  {display: inline-block;
+		line-height: 1.7em;
+		word-spacing: 3em;} 	
+		/* Why doesn't word-spacing work on inline list items 
+		to spread them out? What should I use insteead? */
+
+	.left {background-color: white;
+			font-size: 95%;
+			height: 200px;}
+
+	.right {background-color: white;
+			font-size: 95%;
+			height: 200px;}
+
 	footer {font-family: "Garamond", Times New Roman, Times, serif;
 		 font-size: 14px;
 		 color: #998136;
 		 background-color: 	#291400;
-		 text-align: center;}
+		 text-align: center;
+		 line-height: 1.1em;}
 
 	a  {color: #998136;
 		text-decoration: none;}
