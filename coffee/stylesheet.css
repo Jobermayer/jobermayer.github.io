@@ -1,4 +1,4 @@
-/* BEGIN STYLE RESET */
+	/* BEGIN STYLE RESET */
 	/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -86,10 +86,13 @@ table {
 		margin-left: 1.7em;} 
 
 	li:first-child {margin-left: 0em;}	
-		/* Why doesn't word-spacing work on inline list items 
-		to spread them out? What should I use insteead? */
 
-	.main {clear: both; min-height: 10px; overflow: hidden;}
+
+	.main {clear: both; min-height: 10px; 
+			overflow: hidden;}
+			/* overflow: hidden always needed at
+			beginning of a container that is going
+			to contain floating elements next to each other */
 
 	.left {background-color: white;
 			font-size: 95%;
@@ -105,13 +108,18 @@ table {
 			padding: 25px 100px 25px 25px;
 			float: left;}
 
-	footer {font-family: "Garamond", Times New Roman, Times, serif;
-		 font-size: 14px;
+	.footer {font-family: "Garamond", "Times New Roman", Times, serif;
+		 font-size: .9em;
 		 color: #998136;
 		 background-color: 	#291400;
 		 text-align: center;
 		 line-height: 1.1em;
+		 clear: both; 
+		 /* clear: both only needed for IE7 and lower */
 		 padding: 25px;}
+
+		.footer p{
+		}
 
 	a  {color: #998136;
 		text-decoration: none;}
