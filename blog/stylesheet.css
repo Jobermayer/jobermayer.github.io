@@ -40,8 +40,14 @@ body {font-family: /* leaguegothic-condensed, THIS FONT LOOKS TERRIBLE */
 
 	#header {padding-left: 1em;
 			padding-right: 1em;
-			}
+			position: relative;
+			height: 3.7em;}
 
+	#nav 	{position:absolute;
+			top: 2.5em;
+			left: 60%;}
+			/* right: 2em;}*/ 
+			/* left: 35em;}*/ 
 
 	header ul  {text-align: right;
 		margin-left: 1.7em;
@@ -113,6 +119,17 @@ body {font-family: /* leaguegothic-condensed, THIS FONT LOOKS TERRIBLE */
 				margin-left: 16em;}
 
 	.blogEntry {padding: 1em 1em;}
+
+		.box {
+			  float: left;
+			  width: 200px;
+			  height: 100px;
+			  margin: 1em;
+			}
+
+		.after-box {
+			  clear: left;
+			}
 
 	#footer {
 			padding-left: 1em;
