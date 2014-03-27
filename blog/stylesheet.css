@@ -33,6 +33,10 @@
 
 
 
+#wrapper {max-width: 100%;}
+
+
+
 body {font-family: /* leaguegothic-condensed, THIS FONT LOOKS TERRIBLE */
 	arial, sans-serif;
 	max-width: 56em;
@@ -43,7 +47,8 @@ body {font-family: /* leaguegothic-condensed, THIS FONT LOOKS TERRIBLE */
 			position: relative;
 			height: 3.7em;}
 
-	#nav 	{position:absolute;
+	#nav 	{ float: right;
+			/* position:absolute; */
 			top: 2.5em;
 			left: 60%;}
 			/* right: 2em;}*/ 
@@ -138,7 +143,11 @@ body {font-family: /* leaguegothic-condensed, THIS FONT LOOKS TERRIBLE */
 
 			
 
+  @media screen and (max-width:600px) {
+        #blogContent { float:none; width:98%; margin:0 1%; }
+		#sideContent { float:none; width:98%; margin:0 1%; }
+		#nav {float:none; width:98%; margin:0 1%;}
+		h1 {font-size: 50%}
 
-
-
+		}
 
