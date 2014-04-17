@@ -145,9 +145,9 @@ body {font-family: /* leaguegothic-condensed, THIS FONT LOOKS TERRIBLE */
 
   @media screen and (max-width:600px) {
         #blogContent { float:none; width:98%; margin:0 1%; }
-		#sideContent { float:none; width:98%; margin:0 1%; }
+		#sideContent { display:none; }
 		#nav {float:none; width:98%; margin:0 1%;}
-		h1 {font-size: 50%}
+		
 
 		}
 
